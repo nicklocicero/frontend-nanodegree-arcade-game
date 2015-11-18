@@ -6,6 +6,8 @@ var Enemy = function() {
     // The image/sprite for our enemies, this uses
     // a helper we've provided to easily load images
     this.sprite = 'images/enemy-bug.png';
+    this.initx = 101;
+    this.inity = 83;
 };
 
 // Update the enemy's position, required method for game
@@ -25,10 +27,42 @@ Enemy.prototype.render = function() {
 // This class requires an update(), render() and
 // a handleInput() method.
 
+var Player = function() {
+  this.sprite = 'images/char-boy.png'
+};
+
+// Update the player's position, required method for game
+// Parameter: dt, a time delta between ticks
+Player.prototype.update = function(dt) {
+    // You should multiply any movement by the dt parameter
+    // which will ensure the game runs at the same speed for
+    // all computers.
+};
+
+Player.prototype.handleInput = function(input) {
+  if (input === 'left') {
+    // move player left
+  } else if (input === 'right') {
+    // move player right
+  } else if (input === 'down') {
+    // move player down
+  } else if (input === 'up') {
+    this.y -= 83;
+  }
+
+};
+
+// Draw the player on the screen, required method for game
+Player.prototype.render = function() {
+    ctx.drawImage(Resources.get(this.sprite), this.x, this.y);
+};
+
 
 // Now instantiate your objects.
 // Place all enemy objects in an array called allEnemies
+var allEnemies = [];
 // Place the player object in a variable called player
+var player = new Player();
 
 
 
