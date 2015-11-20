@@ -28,7 +28,9 @@ Enemy.prototype.render = function() {
 // a handleInput() method.
 
 var Player = function() {
-  this.sprite = 'images/char-boy.png'
+  this.sprite = 'images/char-boy.png';
+  this.x;
+  this.y;
 };
 
 // Update the player's position, required method for game
