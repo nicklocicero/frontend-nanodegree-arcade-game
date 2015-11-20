@@ -4,7 +4,7 @@ A simple, frogger-like game to build upon the lessons I learned in:
 
 - the [Object Oriented Programming class](https://www.udacity.com/course/object-oriented-javascript--ud015)
 - the [HTML5 Canvas class](https://www.udacity.com/course/html5-canvas--ud292)
-- the [ReadME class](https://www.udacity.com/course/writing-readmes--ud777).
+- the [ReadME class](https://www.udacity.com/course/writing-readmes--ud777)
 
 This project was mainly for my learning benefit, but there is some interesting interactivity that allows a player to move around and try to avoid the evil bugs, so have fun if you **dare**.
 
