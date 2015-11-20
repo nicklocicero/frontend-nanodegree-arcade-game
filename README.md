@@ -31,5 +31,4 @@ Follow [me](http://github.com/nicklocicero) on github.
 
 ## License
 
-This project is licensed under [GNU General Public License v2.0]\
-(http://choosealicense.com/licenses/gpl-2.0/).
+This project is licensed under [GNU General Public License v2.0](http://choosealicense.com/licenses/gpl-2.0/).
