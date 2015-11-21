@@ -1,18 +1,23 @@
 # Udacity Front-end Project 3: Surviving Evil, the game
 
-A simple, frogger-like game to build upon the lessons I learned in:
+A simple, frogger-like game to build upon the lessons I learned in Udacity's:
 
-- the [Object Oriented Programming class](https://www.udacity.com/course/object-oriented-javascript--ud015)
-- the [HTML5 Canvas class](https://www.udacity.com/course/html5-canvas--ud292)
-- the [ReadME class](https://www.udacity.com/course/writing-readmes--ud777)
+- [Object Oriented Programming class](https://www.udacity.com/course/object-oriented-javascript--ud015)
+- [HTML5 Canvas class](https://www.udacity.com/course/html5-canvas--ud292)
+- [ReadME class](https://www.udacity.com/course/writing-readmes--ud777)
 
-This project was mainly for my learning benefit, but there is some interesting interactivity that allows a player to move around and try to avoid the evil bugs, so have fun if you **dare**.
+This project was mainly for my learning benefit, but there is some interesting interactivity that allows a player to move around and try to avoid the evil bugs.  Have fun if you **dare**.
 
-## How to open the game:
+## How to run the game:
 
-Open index.html in a web browser.
+If you're wondering how to run the game, well, it's as simple as downloading the zip file from the repo, unpacking it, and opening index.html in a browser.
 
-JavaScript and HTML5 canvas are used to run the game.  Please make sure the browser can use these features.
+If you're a slick rick, clone it.  :wink:
+
+"Really, just opening index.html?" you exclaim!
+"Yes'm.  That's it."  :thumbsup:
+
+JavaScript and HTML5 canvas are used to run the game.  I hope you're browser isn't 10 years old.
 
 ## How to play the game:
 
